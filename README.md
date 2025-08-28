@@ -1,1 +1,1 @@
-Nothing fancy here, just a simpre calculator.
+Nothing fancy here, just a simple calculator.
