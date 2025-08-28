@@ -11,21 +11,21 @@ while True:
         case 1:
             resultado = num1 + num2
             print(f"{num1} + {num2} = {resultado}")
-            print("Deseja reaizar outra operação? (s/n)")
+            print("Deseja realizar outra operação? (s/n)")
             if input().lower() != 's':
                     print("Desligando...")
                     break
         case 2:
             resultado = num1 - num2
             print(f"{num1} - {num2} = {resultado}")
-            print("Deseja reaizar outra operação? (s/n)")
+            print("Deseja realizar outra operação? (s/n)")
             if input().lower() != 's':
                     print("Desligando...")
                     break
         case 3:
             resultado = num1 * num2
             print(f"{num1} x {num2} = {resultado}")
-            print("Deseja reaizar outra operação? (s/n)")
+            print("Deseja realizar outra operação? (s/n)")
             if input().lower() != 's':
                     print("Desligando...")
                     break
@@ -35,14 +35,14 @@ while True:
             else:
                 resultado = num1 / num2
                 print(f"{num1} / {num2} = {resultado}")
-                print("Deseja reaizar outra operação? (s/n)")
+                print("Deseja realizar outra operação? (s/n)")
             if input().lower() != 's':
                     print("Desligando...")
                     break
         case 5:
             resultado = num1 ** num2
             print(f"{num1} ^ {num2} = {resultado}")
-            print("Deseja reaizar outra operação? (s/n)")
+            print("Deseja realizar outra operação? (s/n)")
             if input().lower() != 's':
                     print("Desligando...")
                     break
@@ -52,7 +52,7 @@ while True:
             else:
                 resultado = num1 ** 0.5
                 print(f"Raiz quadrada de {num1} = {resultado}")
-                print("Deseja reaizar outra operação? (s/n)")
+                print("Deseja realizar outra operação? (s/n)")
             if input().lower() != 's':
                     print("Desligando...")
                     break
@@ -72,4 +72,5 @@ while True:
                     break
         case _:
                print("Opção inválida. Tente novamente.")
+
                continue 
