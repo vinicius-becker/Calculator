@@ -1,6 +1,6 @@
 while True:
     print("Escolha a opção que deseja utilizar:")
-    print("1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisião\n5 - Potência\n6 - Raiz Quadrada\n7 - Fatorial")
+    print("1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Potência\n6 - Raiz Quadrada\n7 - Fatorial")
 
     opcao = int(input("Digite a opção desejada: "))
 
@@ -74,3 +74,4 @@ while True:
                print("Opção inválida. Tente novamente.")
 
                continue 
+
